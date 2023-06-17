@@ -1,0 +1,29 @@
+input {
+  background: #FFFFFF;
+  border: 1px solid #E7EBFB;
+  border-radius: 9px;
+  padding: 12px 20px;
+  font-family: 'Comfortaa', cursive;
+  flex: 1;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+input::placeholder {
+  color: #8899A8;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.input_icon {
+  padding-left: 45px;
+}
+
+.input__icon {
+  position: absolute;
+  top: 10px;
+  left: 45px;
+}

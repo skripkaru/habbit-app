@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+  background-color: #F3F6FD;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 33px;
+  color: #000000;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  margin-top: 30px;
+}
+
+.app {
+  display: flex;
+}
+
+.content {
+  min-width: 900px;
+  padding: 45px;
+}

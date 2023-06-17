@@ -1,0 +1,40 @@
+.progress {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 235px;
+
+  &__text {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__name {
+    font-size: 14px;
+    line-height: 16px;
+    color: #232360;
+  }
+
+  &__percent {
+    font-size: 12px;
+    line-height: 13px;
+    color: #768396;
+  }
+
+  &__bar {
+    width: 100%;
+    background: #E6E9ED;
+    border-radius: 4px;
+    height: 5px;
+    position: relative;
+  }
+
+  &__cover-bar {
+    position: absolute;
+    transition: all 0.5s;
+    height: 5px;
+    border-radius: 4px;
+    background: #5051F9;
+  }
+
+}

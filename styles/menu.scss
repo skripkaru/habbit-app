@@ -1,0 +1,53 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+
+  &__item {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 14px rgba(62, 107, 224, 0.12);
+    border-radius: 14px;
+    border: none;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+
+    &_active {
+      background: #5051F9;
+
+      img {
+        filter: brightness(0) invert(1);
+      }
+
+    }
+
+    &:hover {
+      background: #6A6AFB;
+
+      img {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+
+  &__add {
+    background: none;
+    border: 1px solid #CAD5FF;
+    border-radius: 14px;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+
+    &:hover {
+      background: #EFF2FF;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@import "global";
+@import "menu";
+@import "progress";
+@import "habbit";
+@import "popup";
+@import "button";
+@import "input";
+
+.logo {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.panel {
+  background: white;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.icon-label {
+  font-size: 14px;
+  line-height: 16px;
+  color: #768396;
+  margin-bottom: 10px;
+}
+
+.icon-select {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  border: 1px solid #5051F9;
+  border-radius: 14px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.icon_active {
+  background: #5051F9;
+}
+
+.icon:hover {
+  background: #6A6AFB;
+}
+
+.icon:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.icon_active img {
+  filter: brightness(0) invert(1);
+}
+
