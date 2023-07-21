@@ -1,1 +1,3 @@
-# habbit-app
+# Habbits
+
+Трекер привычек на JavaScript
