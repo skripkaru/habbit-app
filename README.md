@@ -1,3 +1,3 @@
 # Habbits
 
-Трекер привычек на JavaScript
+JavaScript Habit Tracker
